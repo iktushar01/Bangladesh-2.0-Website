@@ -20,6 +20,11 @@ body{
     border: none;
     border-radius: 8px;
 }
+.primary-heading{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+}
 
 
 /* nav-container-styling */
