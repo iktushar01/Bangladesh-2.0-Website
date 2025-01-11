@@ -49,6 +49,11 @@ body{
     font-size: 32px;
     font-weight: 700;
     color: rgb(14, 14, 14);
+    transition: 0.5s;
+}
+
+.nav-logo-heading:hover{
+    color: #F42A41;
 }
 .nav-btn{
     color: rgb(0, 106, 80);
@@ -58,6 +63,11 @@ body{
     border: 1px solid rgb(0, 106, 80);
     border-radius: 8px;
     font-family: Fira Sans;
+    transition: 0.3s;
+}
+
+.nav-btn:hover{
+    background: #ffffff;
 }
 
 /* banner-container-style */
@@ -192,14 +202,29 @@ body{
     background: rgb(84, 144, 245);
     font-size: 16px;
     font-weight: 600;
+    transition: 0.4s;
+}
+
+.vision-card-box-btn:hover{
+    background: #1e1c1c;
 }
 
 .vcb-btn-2{
     background: rgb(9, 161, 92);
+    transition: 0.4s;
+}
+
+.vcb-btn-2:hover{
+    background: #1e1c1c;
 }
 
 .vcb-btn-3{
     background: rgb(255, 194, 57);
+    transition: 0.4s;
+}
+
+.vcb-btn-3:hover{
+    background: #1e1c1c;
 }
 
 /* testimonial-container style */
@@ -296,4 +321,90 @@ body{
     font-weight: 400;
     line-height: 24px;
     margin-bottom: 32px;
+    
+}
+
+/* donate container styling here */
+
+.donate-container{
+    margin-bottom: 80px;
+}
+
+.donate-box-div{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+
+
+.donate-box{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    transition: 0.3s;
+}
+
+.donate-box:hover{
+    background: rgb(183, 172, 172);
+}
+
+.donate-box2{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    padding: 40px;
+    transition: 0.3s;
+}
+
+.donate-box2:hover{
+    background: rgb(183, 172, 172);
+}
+
+.donate-container-heading{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.donate-container-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    padding: 0 88px;
+    margin-bottom: 32px;
+}
+
+.donate-box-text{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.donate-box-input-div{
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 20px 40px 20px 40px;
+    background: rgb(255, 255, 255);
+    width: 1032px;
+    height: 64px; 
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.donate-box-input{
+    text-align: center;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+.donate-box-input:focus{
+    outline: none;
 }
