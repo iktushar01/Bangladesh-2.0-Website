@@ -20,10 +20,13 @@ body{
     border: none;
     border-radius: 8px;
 }
+
+
 .primary-heading{
     color: rgb(14, 14, 14);
     font-size: 40px;
     font-weight: 700;
+    margin-bottom: 32px;
 }
 
 
@@ -61,6 +64,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 80px 60px;
+    margin-bottom: 80px;
 }
 
 .banner-sub-heading{
@@ -77,4 +81,114 @@ body{
 }
 .banner-btn{
     margin-top: 8px;
+}
+
+/* pillar BD styling */
+
+.pillerbd-container{
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.pillarbd-card{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.pillarbd-card-box{
+    width: 302px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 24px;
+}
+
+.pillarbd-card-box-icon{
+    margin-bottom: 24px;
+}
+
+.pillarbd-card-box-title{
+    margin-bottom: 12px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+}
+.pillarbd-card-box-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* vision-container-styling */
+
+.vision-container{
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.vision-container-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+.vision-container-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.vision-card{
+    display: flex;
+    gap: 24px;
+}
+.vision-card-box{
+    padding: 32px;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    
+}
+
+.vcb2{
+    background: rgb(198, 228, 214);
+}
+.vcb3{
+    background: rgb(247, 235, 207);
+}
+
+.vision-card-icon{
+    margin-bottom: 24px;
+}
+
+.vision-card-box-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.vision-card-box-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.vision-card-box-btn{
+    padding: 11px 20px 11px 20px;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    border: none;
+    background: rgb(84, 144, 245);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.vcb-btn-2{
+    background: rgb(9, 161, 92);
+}
+
+.vcb-btn-3{
+    background: rgb(255, 194, 57);
 }
