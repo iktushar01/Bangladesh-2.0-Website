@@ -52,6 +52,7 @@ body{
     padding: 15px 30px 15px 30px;
     border: 1px solid rgb(0, 106, 80);
     border-radius: 8px;
+    font-family: Fira Sans;
 }
 
 /* banner-container-style */
@@ -118,6 +119,7 @@ body{
     color: rgba(14, 14, 14, 0.7);
     font-size: 16px;
     font-weight: 400;
+    line-height: 24px;
 }
 
 /* vision-container-styling */
@@ -137,6 +139,7 @@ body{
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 32px;
+    line-height: 24px;
 }
 
 .vision-card{
@@ -173,6 +176,7 @@ body{
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 24px;
+    line-height: 24px;
 }
 
 .vision-card-box-btn{
@@ -191,4 +195,44 @@ body{
 
 .vcb-btn-3{
     background: rgb(255, 194, 57);
+}
+
+/* testimonial-container style */
+
+.testimonial-container{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    background-image: url(./assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 24px 24px ;
+
+}
+
+.testimonial-container-content{
+    padding: 48px 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.testimonial-container-description{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom:12px ;
+}
+
+.testimonial-container-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.testimonial-container-sub-title{
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+    font-weight: 400;
 }
