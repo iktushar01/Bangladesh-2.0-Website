@@ -1,4 +1,4 @@
-# 🇧🇩 Bangladesh 2.0 Website
+## Bangladesh 2.0 Website
 
 A modern, responsive website built to present a visionary roadmap for Bangladesh's future. This project emphasizes innovation, growth, and national pride through clean design and engaging user experience.
 
